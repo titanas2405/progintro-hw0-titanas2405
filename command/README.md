@@ -24,3 +24,7 @@ Bandit5:
 
 Εκανα ls και βρηκα το αρχειo με ονομα inhere. Εκανα cd στο αρχειο αυτο και μετα εγραψα find . -readable -size 1033c -type f ! -executable  ωστε να μου δωσει το αρχειο που απαιτειται
 
+Bandit 6:
+
+Εκανα cd .. μεχρι να φτασω στο root και μετα εγραψα find . -user bandit7 -group bandit6 -size 33c 2> /dev/null (To 2> /dev/nul χρησιμοποιηθηκε ετσι ωστε να εκτυπωσει το αρχειο που δεν βγαζει permision denied)
+
