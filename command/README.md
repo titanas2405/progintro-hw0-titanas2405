@@ -28,3 +28,6 @@ Bandit 6:
 
 Εκανα cd .. μεχρι να φτασω στο root και μετα εγραψα find . -user bandit7 -group bandit6 -size 33c 2> /dev/null (To 2> /dev/nul χρησιμοποιηθηκε ετσι ωστε να εκτυπωσει το αρχειο που δεν βγαζει permision denied)
 
+Bandit7:
+
+Εγραψα grep millionth data.txt ωστε να μου βρει στο αρχειο data.txt την γραμμη, η οποια περιλαμβανει την λεξη millionth 
